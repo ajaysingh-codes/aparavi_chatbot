@@ -5,3 +5,6 @@ __pycache__/
 
 #Ignore virtual environments
 .venv/
+
+#Ignore logs
+.deepeval_telemetry.txt

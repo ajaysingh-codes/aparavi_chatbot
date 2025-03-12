@@ -7,8 +7,8 @@ from deepeval.metrics import (
     FaithfulnessMetric
 )
 from deepeval.test_case import LLMTestCase
-from .services.retrieval_service import RetrievalService
-from .crew import run_crew_pipeline
+from aparavi_chatbot.services.retrieval_service import RetrievalService
+from aparavi_chatbot.crew import run_crew_pipeline
 
 # Sample test case for Order ID 10560
 TEST_QUERIES = [

@@ -1,25 +1,26 @@
 from crewai import Agent
-from .tools.custom_tool import QueryAnalysisTool
-from .tools.validation_tool import RetrievalValidationTool
+from aparavi_chatbot.tools.validation_tool import RetrievalValidationTool
 
 ## First agent: Query Understanding Agent
 query_understanding_specialist = Agent(
     role="Query Understanding Specialist",
-    goal=("Extract Order ID and key parameters from the user query and refine search parameters {input}"),
+    goal=("Extract key search parameters from user queries and organize them for effective retrieval {input}"),
     verbose=True,
     memory=True,
-    backstory="You specialize in parsing user queries, ensuring key details (like Order ID), and ensuring all necessary details are present before retrival.",
-    tools=[QueryAnalysisTool()],
+    backstory=("You specialize in natural language understanding, extracting structured information from unstructured or semi-structured text"
+               "Your expertise lies in identifying search intentions and parameters from conversational queries."
+    ),
+    tools=[],
     allow_delegation=True,
 )
 
 ## Second agent: Data Retrieval & Validation agent
 retrieval_validation_specialist = Agent(
     role="Data Extraction & Validation Specialist",
-    goal="Fetch relevant order/invoice records from Pinecone, validate metadata and cross-check details. {input}",
+    goal="Retrieve relevant order/invoice records using search parameters from Pinecone, validate their accuracy and relevance. {input}",
     verbose=True,
     memory=True,
-    backstory="You ensure retrieved records are accurate, properly formatted and match the expected business metadata.",
+    backstory="You're an expert at information retrieval. Using provided search parameters, you can find, filter, and validate the most relevant documents from the database, ensuring they meet the user's information needs.",
     tools=[RetrievalValidationTool()],
     allow_delegation=True,
 )

@@ -1,10 +1,18 @@
 import os
-from .services.retrieval_service import RetrievalService
+from aparavi_chatbot.services.retrieval_service import RetrievalService
 from crewai import Crew, Process
-from .agents import query_understanding_specialist, retrieval_validation_specialist, report_generation_specialist
-from .tasks import query_analysis_task, data_retrieval_task, generate_business_report
+from aparavi_chatbot.agents import (
+    query_understanding_specialist, 
+    retrieval_validation_specialist, 
+    report_generation_specialist
+)
+from aparavi_chatbot.tasks import (
+    query_analysis_task, 
+    data_retrieval_task, 
+    generate_business_report
+)
 from openai import OpenAI
-from .config import OPENAI_API_KEY
+from aparavi_chatbot.config import OPENAI_API_KEY
 
 retrieval_service = RetrievalService()
 

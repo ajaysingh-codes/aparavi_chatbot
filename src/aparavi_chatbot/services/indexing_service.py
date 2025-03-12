@@ -4,7 +4,7 @@ import itertools
 from openai import OpenAI
 from tqdm import tqdm
 from pinecone import Pinecone, ServerlessSpec
-from ..config import PINECONE_API_KEY, OPENAI_API_KEY, PINECONE_INDEX
+from aparavi_chatbot.config import PINECONE_API_KEY, OPENAI_API_KEY, PINECONE_INDEX
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHUNKED_DOCS_PATH = os.path.join(BASE_DIR, "knowledge", "chunked_company_docs.json")

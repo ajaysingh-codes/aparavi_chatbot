@@ -1,7 +1,7 @@
 import re
 import pinecone
 from openai import OpenAI
-from ..config import PINECONE_API_KEY, OPENAI_API_KEY, PINECONE_INDEX
+from aparavi_chatbot.config import PINECONE_API_KEY, OPENAI_API_KEY, PINECONE_INDEX
 
 class RetrievalService:
     def __init__(self):

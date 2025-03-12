@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import warnings
-from .crew import run_crew_pipeline
+from aparavi_chatbot.crew import run_crew_pipeline
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 

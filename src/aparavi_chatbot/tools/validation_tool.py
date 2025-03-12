@@ -1,7 +1,7 @@
 from crewai.tools import BaseTool
 from typing import Type
 from pydantic import BaseModel, Field
-from ..services.retrieval_service import RetrievalService
+from aparavi_chatbot.services.retrieval_service import RetrievalService
 
 retrieval_service = RetrievalService()
 
@@ -18,7 +18,7 @@ class RetrievalValidationTool(BaseTool):
 
     def _run(self, query: str) -> dict:
         """Fetch & validate data from Pinecone."""
-        retrieved_docs = retrieval_service.retrieve(query=query, top_k=3)
+        retrieved_docs = retrieval_service.retrieve(query=query, top_k=5)
 
         validated_data = [
             {
