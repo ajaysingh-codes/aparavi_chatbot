@@ -2,21 +2,13 @@ from crewai import Agent
 from .tools.custom_tool import QueryAnalysisTool
 from .tools.validation_tool import RetrievalValidationTool
 
-## Manager agent
-# manager = Agent(
-#     role="Project Manager",
-#     goal="Efficiently manage the crew and ensure high-quality task completion.",
-#     backstory="You're an experienced project manager, skilled in overseeing complex projects and guiding teams to success. Your role is to coordinate the efforts of the crew members, ensuring that each task is completed on time and to the highest standard.",
-#     allow_delegation=True
-# )
-
 ## First agent: Query Understanding Agent
 query_understanding_specialist = Agent(
     role="Query Understanding Specialist",
-    goal=("Analyze user queries, detect missing details, and refine search parameters {input}"),
+    goal=("Extract Order ID and key parameters from the user query and refine search parameters {input}"),
     verbose=True,
     memory=True,
-    backstory="You specialize in understanding user intent, ensuring all necessary details (such as Order ID) are present during retrival.",
+    backstory="You specialize in parsing user queries, ensuring key details (like Order ID), and ensuring all necessary details are present before retrival.",
     tools=[QueryAnalysisTool()],
     allow_delegation=True,
 )
@@ -34,11 +26,23 @@ retrieval_validation_specialist = Agent(
 
 ## Third agent: Report Generation Agent
 report_generation_specialist = Agent(
-    role="Business Report Generator Specialist",
-    goal="Generate detailed reports based on validated order records.",
+    role="Business Intelligence Analyst",
+    goal="Generate concise, insight-driven reports highlighting key business insights from order data.",
     verbose=True,
     memory=True,
-    backstory="You transform structured order data into clear, concise, and professional business reports.",
+    backstory=(
+        "You are an expert in business intelligence, skilled at extracting actionable insights "
+        "from semi-structured order data. Your reports must be concise, focusing on profitability, logistics efficiency, "
+        "customer trends, and operational recommendations."
+    ),
     tools=[],
     allow_delegation=False,
 )
+
+## Manager agent
+# manager = Agent(
+#     role="Project Manager",
+#     goal="Efficiently manage the crew and ensure high-quality task completion.",
+#     backstory="You're an experienced project manager, skilled in overseeing complex projects and guiding teams to success. Your role is to coordinate the efforts of the crew members, ensuring that each task is completed on time and to the highest standard.",
+#     allow_delegation=True
+# )
