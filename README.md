@@ -1,10 +1,8 @@
-# AparaviChatbot - Multi-Agent RAG System
-
-An agentic Retrieval-Augmented Generation (RAG) system that generates business insights from order/invoice data using a collaborative multi-agent approach.
+# AparaviChatbot - Multi-Agent RAG System with CrewAI, Pinecone and DeepEval
 
 ## Project Overview
 
-This project demonstrates the power of multi-agent AI systems for handling complex business intelligence tasks. The system processes semi-structured order/invoice data, extracts meaningful patterns, and generates actionable business insights through a coordinated team of specialized AI agents.
+This project implements an end-to-end RAG chatbot that utilizes CrewAI for agentic task execution, Pinecone as the vector database, and DeepEval for evaluation. This system enables efficient information retrieval from a large dataset using chunking strategies, metadata filtering and prompt engineering. 
 
 
 ### Why Multi-Agent for Semi-structured Data?
