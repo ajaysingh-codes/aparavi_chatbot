@@ -1,7 +1,7 @@
 from crewai.tools import BaseTool
 from typing import Type
 from pydantic import BaseModel, Field
-from ..retrieval_service import RetrievalService
+from ..services.retrieval_service import RetrievalService
 
 retrieval_service = RetrievalService()
 

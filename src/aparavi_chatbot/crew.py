@@ -1,5 +1,5 @@
 import os
-from .retrieval_service import RetrievalService
+from .services.retrieval_service import RetrievalService
 from crewai import Crew, Process
 from .agents import query_understanding_specialist, retrieval_validation_specialist, report_generation_specialist
 from .tasks import query_analysis_task, data_retrieval_task, generate_business_report
