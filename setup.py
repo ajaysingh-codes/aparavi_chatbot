@@ -9,7 +9,7 @@ setup(
         "crewai>=0.105.0",
         "chonkie>=0.5.1",
         "deepeval>=0.12.0",
-        "pinecone-client>=6.0.0",
+        "pinecone>=6.0.1",
         "openai>=1.65.0",
         "python-dotenv>=1.0.0",
         "streamlit>=1.30.0",

@@ -16,7 +16,7 @@ class RetrievalValidationTool(BaseTool):
     )
     args_schema: Type[BaseModel] = RetrievalValidationInput
 
-    def _run(self, query: str) -> dict:
+    def _run(self, query: str | dict) -> dict:
         """Fetch & validate data from Pinecone."""
         retrieved_docs = retrieval_service.retrieve(query=query, top_k=5)
 
