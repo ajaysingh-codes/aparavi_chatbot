@@ -1,31 +1,83 @@
-# AparaviChatbot Crew
+# AparaviChatbot - Multi-Agent RAG System
 
-Welcome to the AparaviChatbot Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+An agentic Retrieval-Augmented Generation (RAG) system that generates business insights from order/invoice data using a collaborative multi-agent approach.
 
-## Installation
+## Project Overview
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+This project demonstrates the power of multi-agent AI systems for handling complex business intelligence tasks. The system processes semi-structured order/invoice data, extracts meaningful patterns, and generates actionable business insights through a coordinated team of specialized AI agents.
 
-First, if you haven't already, install uv:
 
+### Why Multi-Agent for Semi-structured Data?
+
+Semi-structured data like shipping orders presents unique challenges:
+- Information is organized in a consistent format but not in rigid database-like structures
+- Contextual understanding is required to extract meaningful insights
+- Business analysis requires domain expertise and specialized reasoning
+
+## Architecture
+
+The system uses a three-tier architecture:
+1. **Document Processing Layer**
+    - Advanced chunking with Chonkie
+    - Vector embedding and indexing with Pinecone
+
+2. **Agent Orchestration Layer**
+    - Multi-agent coordination with CrewAI
+    - Specialized agents for query understanding, data retrieval and report generation
+
+3. **Evaluation Layer**
+    - Comprehensive testing with DeepEval
+    - Metrics for both retrieval accuracy and generation quality
+
+## Getting Started
+### Prerequisites
+- Python >=3.10 and <3.13
+- OpenAI API key
+- Pinecone API key 
+
+### Installation
+1. Clone the repository
 ```bash
-pip install uv
+$ git clone https://github.com/yourusername/aparavi_chatbot.git
+$ cd aparavi_chatbot
 ```
 
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
+2. Install the packages:
 ```bash
-crewai install
+$ pip install -e .
 ```
-### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+3. Configure environment: Create a .env file in project root with:
+```bash
+$ OPENAI_API_KEY=your_openai_api_key
+$ PINECONE_API_KEY=your_pinecone_api_key
+```
 
-- Modify `src/aparavi_chatbot/config/agents.yaml` to define your agents
-- Modify `src/aparavi_chatbot/config/tasks.yaml` to define your tasks
-- Modify `src/aparavi_chatbot/crew.py` to add your own logic, tools and specific args
-- Modify `src/aparavi_chatbot/main.py` to add custom inputs for your agents and tasks
+### Running the application
+
+To run the Streamlit web interface:
+```bash
+$ python run_streamlit.py
+```
+
+To run from CLI:
+```bash
+$ cd src/aparavi_chatbot
+$ python main.py
+```
+
+## Components
+
+### Dataset
+
+The system uses a semi-structured shipping orders dataset containing:
+- Order details (ID, dates, shipping status)
+- Customer information
+- Product listings with pricing
+- Regional shipping information
+
+I chose this dataset specifically from HuggingFace because it represents a real-word business scenario where multiple specialized skills (query parsing, data retrieval, business analysis) are needed to extract actionable insights. 
+
 
 ## Running the Project
 
@@ -35,20 +87,4 @@ To kickstart your crew of AI agents and begin task execution, run this from the 
 $ crewai run
 ```
 
-This command initializes the aparavi_chatbot Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
-
-## Understanding Your Crew
-
-The aparavi_chatbot Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the AparaviChatbot Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
