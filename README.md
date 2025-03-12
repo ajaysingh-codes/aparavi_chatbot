@@ -90,6 +90,7 @@ The lower score for Answer Relevancy was attributed to the format of the report 
 - OpenAI API key
 - Pinecone API key 
 
+
 ### Installation
 1. Clone the repository
 ```bash
