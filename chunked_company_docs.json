@@ -1,0 +1,352 @@
+[
+    {
+        "id": "company_doc_0_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10562\nShipping Details:\nShip Name: Reggiani Caseifici\nShip Address: Strada Provinciale 124\nShip City: Reggio Emilia\nShip Region: Southern Europe\nShip Postal Code: 42100\nShip Country: Italy\nCustomer Details:\nCustomer ID: REGGC\nCustomer Name: Reggiani Caseifici\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-06-09\nShipped Date: 2017-06-12\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Geitost\nQuantity: 20\nUnit Price: 2.5\nTotal: 50.0\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 10\nUnit Price: 49.3\nTotal: 493.0\nTotal Price:\nTotal Price: 543.0\n, start_index=0, end_index=805, token_count=205, level=0)",
+        "file_name": "order_10562.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10562"
+    },
+    {
+        "id": "company_doc_1_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10528\nShipping Details:\nShip Name: Great Lakes Food Market\nShip Address: 2732 Baker Blvd.\nShip City: Eugene\nShip Region: North America\nShip Postal Code: 97403\nShip Country: USA\nCustomer Details:\nCustomer ID: GREAL\nCustomer Name: Great Lakes Food Market\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-05-06\nShipped Date: 2017-05-09\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Queso Cabrales\nQuantity: 3\nUnit Price: 21.0\nTotal: 63.0\n--------------------------------------------------------------------------------------------------\nProduct: Geitost\nQuantity: 8\nUnit Price: 2.5\nTotal: 20.0\n--------------------------------------------------------------------------------------------------\nProduct: Mozzarella di Giovanni\nQuantity: 9\nUnit Price: 34.8\nTotal: 313.2\nTotal Price:\nTotal Price: 396.2\n, start_index=0, end_index=969, token_count=223, level=0)",
+        "file_name": "order_10528.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10528"
+    },
+    {
+        "id": "company_doc_2_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10590\nShipping Details:\nShip Name: M\u00e8re Paillarde\nShip Address: 43 rue St. Laurent\nShip City: Montr\u00e9al\nShip Region: North America\nShip Postal Code: H1J 1C3\nShip Country: Canada\nCustomer Details:\nCustomer ID: MEREP\nCustomer Name: M\u00e8re Paillarde\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-07-07\nShipped Date: 2017-07-14\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chai\nQuantity: 20\nUnit Price: 18.0\nTotal: 360.0\n--------------------------------------------------------------------------------------------------\nProduct: Original Frankfurter gr\u00fcne So\u00dfe\nQuantity: 60\nUnit Price: 13.0\nTotal: 780.0\nTotal Price:\nTotal Price: 1140.0\n, start_index=0, end_index=811, token_count=207, level=0)",
+        "file_name": "order_10590.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10590"
+    },
+    {
+        "id": "company_doc_3_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10665\nShipping Details:\nShip Name: Lonesome Pine Restaurant\nShip Address: 89 Chiaroscuro Rd.\nShip City: Portland\nShip Region: North America\nShip Postal Code: 97219\nShip Country: USA\nCustomer Details:\nCustomer ID: LONEP\nCustomer Name: Lonesome Pine Restaurant\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-09-11\nShipped Date: 2017-09-17\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Manjimup Dried Apples\nQuantity: 20\nUnit Price: 53.0\nTotal: 1060.0\n--------------------------------------------------------------------------------------------------\nProduct: Raclette Courdavault\nQuantity: 1\nUnit Price: 55.0\nTotal: 55.0\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 10\nUnit Price: 18.0\nTotal: 180.0\nTotal Price:\nTotal Price: 1295.0\n, start_index=0, end_index=990, token_count=238, level=0)",
+        "file_name": "order_10665.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10665"
+    },
+    {
+        "id": "company_doc_4_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10808\nShipping Details:\nShip Name: Old World Delicatessen\nShip Address: 2743 Bering St.\nShip City: Anchorage\nShip Region: North America\nShip Postal Code: 99508\nShip Country: USA\nCustomer Details:\nCustomer ID: OLDWO\nCustomer Name: Old World Delicatessen\nEmployee Details:\nEmployee Name: Andrew Fuller\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-01-01\nShipped Date: 2018-01-09\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Gnocchi di nonna Alice\nQuantity: 20\nUnit Price: 38.0\nTotal: 760.0\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 50\nUnit Price: 18.0\nTotal: 900.0\nTotal Price:\nTotal Price: 1660.0\n, start_index=0, end_index=816, token_count=205, level=0)",
+        "file_name": "order_10808.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10808"
+    },
+    {
+        "id": "company_doc_5_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10615\nShipping Details:\nShip Name: Wilman Kala\nShip Address: Keskuskatu 45\nShip City: Helsinki\nShip Region: Scandinavia\nShip Postal Code: 21240\nShip Country: Finland\nCustomer Details:\nCustomer ID: WILMK\nCustomer Name: Wilman Kala\nEmployee Details:\nEmployee Name: Andrew Fuller\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-07-30\nShipped Date: 2017-08-06\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: P\u00e2t\u00e9 chinois\nQuantity: 5\nUnit Price: 24.0\nTotal: 120.0\nTotal Price:\nTotal Price: 120.0\n, start_index=0, end_index=617, token_count=166, level=0)",
+        "file_name": "order_10615.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10615"
+    },
+    {
+        "id": "company_doc_6_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10611\nShipping Details:\nShip Name: Wolski Zajazd\nShip Address: ul. Filtrowa 68\nShip City: Warszawa\nShip Region: Eastern Europe\nShip Postal Code: 01-012\nShip Country: Poland\nCustomer Details:\nCustomer ID: WOLZA\nCustomer Name: Wolski Zajazd\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-07-25\nShipped Date: 2017-08-01\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chai\nQuantity: 6\nUnit Price: 18.0\nTotal: 108.0\n--------------------------------------------------------------------------------------------------\nProduct: Chang\nQuantity: 10\nUnit Price: 19.0\nTotal: 190.0\n--------------------------------------------------------------------------------------------------\nProduct: Camembert Pierrot\nQuantity: 15\nUnit Price: 34.0\nTotal: 510.0\nTotal Price:\nTotal Price: 808.0\n, start_index=0, end_index=943, token_count=229, level=0)",
+        "file_name": "order_10611.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10611"
+    },
+    {
+        "id": "company_doc_7_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10339\nShipping Details:\nShip Name: M\u00e8re Paillarde\nShip Address: 43 rue St. Laurent\nShip City: Montr\u00e9al\nShip Region: North America\nShip Postal Code: H1J 1C3\nShip Country: Canada\nCustomer Details:\nCustomer ID: MEREP\nCustomer Name: M\u00e8re Paillarde\nEmployee Details:\nEmployee Name: Andrew Fuller\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2016-10-28\nShipped Date: 2016-11-04\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chef Anton's Cajun Seasoning\nQuantity: 10\nUnit Price: 17.6\nTotal: 176.0\n--------------------------------------------------------------------------------------------------\nProduct: Alice Mutton\nQuantity: 70\nUnit Price: 31.2\nTotal: 2184.0\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 28\nUnit Price: 39.4\nTotal: 1103.2\nTotal Price:\nTotal Price: 3463.2\n, start_index=0, end_index=979, token_count=235, level=0)",
+        "file_name": "order_10339.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10339"
+    },
+    {
+        "id": "company_doc_8_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10918\nShipping Details:\nShip Name: Bottom-Dollar Markets\nShip Address: 23 Tsawassen Blvd.\nShip City: Tsawassen\nShip Region: North America\nShip Postal Code: T2F 8M4\nShip Country: Canada\nCustomer Details:\nCustomer ID: BOTTM\nCustomer Name: Bottom-Dollar Markets\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-03-02\nShipped Date: 2018-03-11\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chai\nQuantity: 60\nUnit Price: 18.0\nTotal: 1080.0\n--------------------------------------------------------------------------------------------------\nProduct: Camembert Pierrot\nQuantity: 25\nUnit Price: 34.0\nTotal: 850.0\nTotal Price:\nTotal Price: 1930.0\n, start_index=0, end_index=812, token_count=203, level=0)",
+        "file_name": "order_10918.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10918"
+    },
+    {
+        "id": "company_doc_9_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10407\nShipping Details:\nShip Name: Ottilies K\u00e4seladen\nShip Address: Mehrheimerstr. 369\nShip City: K\u00f6ln\nShip Region: Western Europe\nShip Postal Code: 50739\nShip Country: Germany\nCustomer Details:\nCustomer ID: OTTIK\nCustomer Name: Ottilies K\u00e4seladen\nEmployee Details:\nEmployee Name: Andrew Fuller\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-01-07\nShipped Date: 2017-01-30\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Queso Cabrales\nQuantity: 30\nUnit Price: 16.8\nTotal: 504.0\n--------------------------------------------------------------------------------------------------\nProduct: Gudbrandsdalsost\nQuantity: 15\nUnit Price: 28.8\nTotal: 432.0\n--------------------------------------------------------------------------------------------------\nProduct: Flotemysost\nQuantity: 15\nUnit Price: 17.2\nTotal: 258.0\nTotal Price:\nTotal Price: 1194.0\n, start_index=0, end_index=968, token_count=235, level=0)",
+        "file_name": "order_10407.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10407"
+    },
+    {
+        "id": "company_doc_10_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10692\nShipping Details:\nShip Name: Alfred-s Futterkiste\nShip Address: Obere Str. 57\nShip City: Berlin\nShip Region: Western Europe\nShip Postal Code: 12209\nShip Country: Germany\nCustomer Details:\nCustomer ID: ALFKI\nCustomer Name: Alfreds Futterkiste\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-10-03\nShipped Date: 2017-10-13\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Vegie-spread\nQuantity: 20\nUnit Price: 43.9\nTotal: 878.0\nTotal Price:\nTotal Price: 878.0\n, start_index=0, end_index=637, token_count=173, level=0)",
+        "file_name": "order_10692.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10692"
+    },
+    {
+        "id": "company_doc_11_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10399\nShipping Details:\nShip Name: Vaffeljernet\nShip Address: Smagsloget 45\nShip City: \u00c5rhus\nShip Region: Northern Europe\nShip Postal Code: 8200\nShip Country: Denmark\nCustomer Details:\nCustomer ID: VAFFE\nCustomer Name: Vaffeljernet\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2016-12-31\nShipped Date: 2017-01-08\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Scottish Longbreads\nQuantity: 60\nUnit Price: 10.0\nTotal: 600.0\n--------------------------------------------------------------------------------------------------\nProduct: Flotemysost\nQuantity: 30\nUnit Price: 17.2\nTotal: 516.0\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 35\nUnit Price: 14.4\nTotal: 504.0\n--------------------------------------------------------------------------------------------------\nProduct: Original Frankfurter gr\u00fcne So\u00dfe\nQuantity: 14\nUnit Price: 10.4\nTotal: 145.6\nTotal Price:\nTotal Price: 1765.6\n, start_index=0, end_index=1139, token_count=268, level=0)",
+        "file_name": "order_10399.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10399"
+    },
+    {
+        "id": "company_doc_12_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10436\nShipping Details:\nShip Name: Blondel p\u00e8re et fils\nShip Address: 24, place Kl\u00e9ber\nShip City: Strasbourg\nShip Region: Western Europe\nShip Postal Code: 67000\nShip Country: France\nCustomer Details:\nCustomer ID: BLONP\nCustomer Name: Blondesddsl p\u00e8re et fils\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-02-05\nShipped Date: 2017-02-11\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Spegesild\nQuantity: 5\nUnit Price: 9.6\nTotal: 48.0\n--------------------------------------------------------------------------------------------------\nProduct: Gnocchi di nonna Alice\nQuantity: 40\nUnit Price: 30.4\nTotal: 1216.0\n--------------------------------------------------------------------------------------------------\nProduct: Wimmers gute Semmelkn\u00f6del\nQuantity: 30\nUnit Price: 26.6\nTotal: 798.0\n--------------------------------------------------------------------------------------------------\nProduct: Rh\u00f6nbr\u00e4u Klosterbier\nQuantity: 24\nUnit Price: 6.2\nTotal: 148.8\nTotal Price:\nTotal Price: 2210.8\n, start_index=0, end_index=1165, token_count=276, level=0)",
+        "file_name": "order_10436.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10436"
+    },
+    {
+        "id": "company_doc_13_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10705\nShipping Details:\nShip Name: HILARION-Abastos\nShip Address: Carrera 22 con Ave. Carlos Soublette #8-35\nShip City: San Crist\u00f3bal\nShip Region: South America\nShip Postal Code: 5022\nShip Country: Venezuela\nCustomer Details:\nCustomer ID: HILAA\nCustomer Name: HILARION-Abastos\nEmployee Details:\nEmployee Name: Anne Dodsworth\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-10-15\nShipped Date: 2017-11-18\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Gorgonzola Telino\nQuantity: 20\nUnit Price: 12.5\nTotal: 250.0\n--------------------------------------------------------------------------------------------------\nProduct: Mascarpone Fabioli\nQuantity: 4\nUnit Price: 32.0\nTotal: 128.0\nTotal Price:\nTotal Price: 378.0\n, start_index=0, end_index=838, token_count=219, level=0)",
+        "file_name": "order_10705.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10705"
+    },
+    {
+        "id": "company_doc_14_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10906\nShipping Details:\nShip Name: Wolski Zajazd\nShip Address: ul. Filtrowa 68\nShip City: Warszawa\nShip Region: Eastern Europe\nShip Postal Code: 01-012\nShip Country: Poland\nCustomer Details:\nCustomer ID: WOLZA\nCustomer Name: Wolski Zajazd\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-02-25\nShipped Date: 2018-03-03\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Sirop d'\u00e9rable\nQuantity: 15\nUnit Price: 28.5\nTotal: 427.5\nTotal Price:\nTotal Price: 427.5\n, start_index=0, end_index=632, token_count=179, level=0)",
+        "file_name": "order_10906.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10906"
+    },
+    {
+        "id": "company_doc_15_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10603\nShipping Details:\nShip Name: Save-a-lot Markets\nShip Address: 187 Suffolk Ln.\nShip City: Boise\nShip Region: North America\nShip Postal Code: 83720\nShip Country: USA\nCustomer Details:\nCustomer ID: SAVEA\nCustomer Name: Save-a-lot Markets\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-07-18\nShipped Date: 2017-08-08\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Gustaf's Kn\u00e4ckebr\u00f6d\nQuantity: 48\nUnit Price: 21.0\nTotal: 1008.0\n--------------------------------------------------------------------------------------------------\nProduct: Maxilaku\nQuantity: 25\nUnit Price: 20.0\nTotal: 500.0\nTotal Price:\nTotal Price: 1508.0\n, start_index=0, end_index=797, token_count=205, level=0)",
+        "file_name": "order_10603.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10603"
+    },
+    {
+        "id": "company_doc_16_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10281\nShipping Details:\nShip Name: Romero y tomillo\nShip Address: Gran V\u00eda, 1\nShip City: Madrid\nShip Region: Southern Europe\nShip Postal Code: 28001\nShip Country: Spain\nCustomer Details:\nCustomer ID: ROMEY\nCustomer Name: Romero y tomillo\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2016-08-14\nShipped Date: 2016-08-21\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Teatime Chocolate Biscuits\nQuantity: 1\nUnit Price: 7.3\nTotal: 7.3\n--------------------------------------------------------------------------------------------------\nProduct: Guaran\u00e1 Fant\u00e1stica\nQuantity: 6\nUnit Price: 3.6\nTotal: 21.6\n--------------------------------------------------------------------------------------------------\nProduct: Steeleye Stout\nQuantity: 4\nUnit Price: 14.4\nTotal: 57.6\nTotal Price:\nTotal Price: 86.5\n, start_index=0, end_index=967, token_count=230, level=0)",
+        "file_name": "order_10281.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10281"
+    },
+    {
+        "id": "company_doc_17_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10296\nShipping Details:\nShip Name: LILA-Supermercado\nShip Address: Carrera 52 con Ave. Bol\u00edvar #65-98 Llano Largo\nShip City: Barquisimeto\nShip Region: South America\nShip Postal Code: 3508\nShip Country: Venezuela\nCustomer Details:\nCustomer ID: LILAS\nCustomer Name: LILA-Supermercado\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2016-09-03\nShipped Date: 2016-09-11\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Queso Cabrales\nQuantity: 12\nUnit Price: 16.8\nTotal: 201.60000000000002\n--------------------------------------------------------------------------------------------------\nProduct: Pavlova\nQuantity: 30\nUnit Price: 13.9\nTotal: 417.0\n--------------------------------------------------------------------------------------------------\nProduct: Gudbrandsdalsost\nQuantity: 15\nUnit Price: 28.8\nTotal: 432.0\nTotal Price:\nTotal Price: 1050.6\n, start_index=0, end_index=1012, token_count=252, level=0)",
+        "file_name": "order_10296.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10296"
+    },
+    {
+        "id": "company_doc_18_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10795\nShipping Details:\nShip Name: Ernst Handel\nShip Address: Kirchgasse 6\nShip City: Graz\nShip Region: Western Europe\nShip Postal Code: 8010\nShip Country: Austria\nCustomer Details:\nCustomer ID: ERNSH\nCustomer Name: Ernst Handel\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-12-24\nShipped Date: 2018-01-20\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Pavlova\nQuantity: 65\nUnit Price: 17.45\nTotal: 1134.25\n--------------------------------------------------------------------------------------------------\nProduct: Alice Mutton\nQuantity: 35\nUnit Price: 39.0\nTotal: 1365.0\nTotal Price:\nTotal Price: 2499.25\n, start_index=0, end_index=781, token_count=193, level=0)",
+        "file_name": "order_10795.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10795"
+    },
+    {
+        "id": "company_doc_19_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10993\nShipping Details:\nShip Name: Folk och f\u00e4 HB\nShip Address: \u00c5kergatan 24\nShip City: Br\u00e4cke\nShip Region: Northern Europe\nShip Postal Code: S-844 67\nShip Country: Sweden\nCustomer Details:\nCustomer ID: FOLKO\nCustomer Name: Folk och f\u00e4 HB\nEmployee Details:\nEmployee Name: Robert King\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-04-01\nShipped Date: 2018-04-10\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Th\u00fcringer Rostbratwurst\nQuantity: 50\nUnit Price: 123.79\nTotal: 6189.5\n--------------------------------------------------------------------------------------------------\nProduct: Jack's New England Clam Chowder\nQuantity: 35\nUnit Price: 9.65\nTotal: 337.75\nTotal Price:\nTotal Price: 6527.25\n, start_index=0, end_index=825, token_count=214, level=0)",
+        "file_name": "order_10993.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10993"
+    },
+    {
+        "id": "company_doc_20_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10839\nShipping Details:\nShip Name: Tradi\u00e7ao Hipermercados\nShip Address: Av. In\u00eas de Castro, 414\nShip City: Sao Paulo\nShip Region: South America\nShip Postal Code: 05634-030\nShip Country: Brazil\nCustomer Details:\nCustomer ID: TRADH\nCustomer Name: Tradi\u00e7\u00e3o Hipermercados\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-01-19\nShipped Date: 2018-01-22\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Escargots de Bourgogne\nQuantity: 30\nUnit Price: 13.25\nTotal: 397.5\n--------------------------------------------------------------------------------------------------\nProduct: Mozzarella di Giovanni\nQuantity: 15\nUnit Price: 34.8\nTotal: 522.0\nTotal Price:\nTotal Price: 919.5\n, start_index=0, end_index=843, token_count=219, level=0)",
+        "file_name": "order_10839.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10839"
+    },
+    {
+        "id": "company_doc_21_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10997\nShipping Details:\nShip Name: LILA-Supermercado\nShip Address: Carrera 52 con Ave. Bol\u00edvar #65-98 Llano Largo\nShip City: Barquisimeto\nShip Region: South America\nShip Postal Code: 3508\nShip Country: Venezuela\nCustomer Details:\nCustomer ID: LILAS\nCustomer Name: LILA-Supermercado\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2018-04-03\nShipped Date: 2018-04-13\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Mascarpone Fabioli\nQuantity: 50\nUnit Price: 32.0\nTotal: 1600.0\n--------------------------------------------------------------------------------------------------\nProduct: Spegesild\nQuantity: 20\nUnit Price: 12.0\nTotal: 240.0\n--------------------------------------------------------------------------------------------------\nProduct: Filo Mix\nQuantity: 20\nUnit Price: 7.0\nTotal: 140.0\nTotal Price:\nTotal Price: 1980.0\n, start_index=0, end_index=997, token_count=244, level=0)",
+        "file_name": "order_10997.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10997"
+    },
+    {
+        "id": "company_doc_22_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10546\nShipping Details:\nShip Name: Victuailles en stock\nShip Address: 2, rue du Commerce\nShip City: Lyon\nShip Region: Western Europe\nShip Postal Code: 69004\nShip Country: France\nCustomer Details:\nCustomer ID: VICTE\nCustomer Name: Victuailles en stock\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-05-23\nShipped Date: 2017-05-27\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Uncle Bob's Organic Dried Pears\nQuantity: 10\nUnit Price: 30.0\nTotal: 300.0\n--------------------------------------------------------------------------------------------------\nProduct: Steeleye Stout\nQuantity: 30\nUnit Price: 18.0\nTotal: 540.0\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 40\nUnit Price: 49.3\nTotal: 1972.0\nTotal Price:\nTotal Price: 2812.0\n, start_index=0, end_index=992, token_count=232, level=0)",
+        "file_name": "order_10546.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10546"
+    },
+    {
+        "id": "company_doc_23_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10551\nShipping Details:\nShip Name: Furia Bacalhau e Frutos do Mar\nShip Address: Jardim das rosas n. 32\nShip City: Lisboa\nShip Region: Southern Europe\nShip Postal Code: 1675\nShip Country: Portugal\nCustomer Details:\nCustomer ID: FURIB\nCustomer Name: Furia Bacalhau e Frutos do Mar\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-05-28\nShipped Date: 2017-06-06\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Pavlova\nQuantity: 40\nUnit Price: 17.45\nTotal: 698.0\n--------------------------------------------------------------------------------------------------\nProduct: Steeleye Stout\nQuantity: 20\nUnit Price: 18.0\nTotal: 360.0\n--------------------------------------------------------------------------------------------------\nProduct: Gula Malacca\nQuantity: 40\nUnit Price: 19.45\nTotal: 778.0\nTotal Price:\nTotal Price: 1836.0\n, start_index=0, end_index=998, token_count=247, level=0)",
+        "file_name": "order_10551.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10551"
+    },
+    {
+        "id": "company_doc_24_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10425\nShipping Details:\nShip Name: La maison d-Asie\nShip Address: 1 rue Alsace-Lorraine\nShip City: Toulouse\nShip Region: Western Europe\nShip Postal Code: 31000\nShip Country: France\nCustomer Details:\nCustomer ID: LAMAI\nCustomer Name: La maison d'Asie\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-01-24\nShipped Date: 2017-02-14\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: P\u00e2t\u00e9 chinois\nQuantity: 10\nUnit Price: 19.2\nTotal: 192.0\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 20\nUnit Price: 14.4\nTotal: 288.0\nTotal Price:\nTotal Price: 480.0\n, start_index=0, end_index=801, token_count=212, level=0)",
+        "file_name": "order_10425.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10425"
+    },
+    {
+        "id": "company_doc_25_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 11055\nShipping Details:\nShip Name: HILARION-Abastos\nShip Address: Carrera 22 con Ave. Carlos Soublette #8-35\nShip City: San Crist\u00f3bal\nShip Region: South America\nShip Postal Code: 5022\nShip Country: Venezuela\nCustomer Details:\nCustomer ID: HILAA\nCustomer Name: HILARION-Abastos\nEmployee Details:\nEmployee Name: Robert King\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2018-04-28\nShipped Date: 2018-05-05\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Guaran\u00e1 Fant\u00e1stica\nQuantity: 15\nUnit Price: 4.5\nTotal: 67.5\n--------------------------------------------------------------------------------------------------\nProduct: NuNuCa Nu\u00df-Nougat-Creme\nQuantity: 15\nUnit Price: 14.0\nTotal: 210.0\n--------------------------------------------------------------------------------------------------\nProduct: Manjimup Dried Apples\nQuantity: 20\nUnit Price: 53.0\nTotal: 1060.0\n--------------------------------------------------------------------------------------------------\nProduct: Ravioli Angelo\nQuantity: 20\nUnit Price: 19.5\nTotal: 390.0\nTotal Price:\nTotal Price: 1727.5\n, start_index=0, end_index=1181, token_count=287, level=0)",
+        "file_name": "order_11055.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "11055"
+    },
+    {
+        "id": "company_doc_26_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10671\nShipping Details:\nShip Name: France restauration\nShip Address: 54, rue Royale\nShip City: Nantes\nShip Region: Western Europe\nShip Postal Code: 44000\nShip Country: France\nCustomer Details:\nCustomer ID: FRANR\nCustomer Name: France restauration\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-09-17\nShipped Date: 2017-09-24\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Pavlova\nQuantity: 10\nUnit Price: 17.45\nTotal: 174.5\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 10\nUnit Price: 49.3\nTotal: 493.0\n--------------------------------------------------------------------------------------------------\nProduct: Louisiana Fiery Hot Pepper Sauce\nQuantity: 12\nUnit Price: 21.05\nTotal: 252.60000000000002\nTotal Price:\nTotal Price: 920.1\n, start_index=0, end_index=993, token_count=228, level=0)",
+        "file_name": "order_10671.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10671"
+    },
+    {
+        "id": "company_doc_27_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10397\nShipping Details:\nShip Name: Princesa Isabel Vinhos\nShip Address: Estrada da sa\u00fade n. 58\nShip City: Lisboa\nShip Region: Southern Europe\nShip Postal Code: 1756\nShip Country: Portugal\nCustomer Details:\nCustomer ID: PRINI\nCustomer Name: Princesa Isabel Vinhos\nEmployee Details:\nEmployee Name: Steven Buchanan\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2016-12-27\nShipped Date: 2017-01-02\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Sir Rodney's Scones\nQuantity: 10\nUnit Price: 8.0\nTotal: 80.0\n--------------------------------------------------------------------------------------------------\nProduct: Manjimup Dried Apples\nQuantity: 18\nUnit Price: 42.4\nTotal: 763.1999999999999\nTotal Price:\nTotal Price: 843.1999999999999\n, start_index=0, end_index=853, token_count=219, level=0)",
+        "file_name": "order_10397.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10397"
+    },
+    {
+        "id": "company_doc_28_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10700\nShipping Details:\nShip Name: Save-a-lot Markets\nShip Address: 187 Suffolk Ln.\nShip City: Boise\nShip Region: North America\nShip Postal Code: 83720\nShip Country: USA\nCustomer Details:\nCustomer ID: SAVEA\nCustomer Name: Save-a-lot Markets\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-10-10\nShipped Date: 2017-10-16\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chai\nQuantity: 5\nUnit Price: 18.0\nTotal: 90.0\n--------------------------------------------------------------------------------------------------\nProduct: Sasquatch Ale\nQuantity: 12\nUnit Price: 14.0\nTotal: 168.0\n--------------------------------------------------------------------------------------------------\nProduct: Scottish Longbreads\nQuantity: 40\nUnit Price: 12.5\nTotal: 500.0\n--------------------------------------------------------------------------------------------------\nProduct: Flotemysost\nQuantity: 60\nUnit Price: 21.5\nTotal: 1290.0\nTotal Price:\nTotal Price: 2048.0\n, start_index=0, end_index=1120, token_count=255, level=0)",
+        "file_name": "order_10700.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10700"
+    },
+    {
+        "id": "company_doc_29_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10930\nShipping Details:\nShip Name: Supr\u00eames d\u00e9lices\nShip Address: Boulevard Tirou, 255\nShip City: Charleroi\nShip Region: Western Europe\nShip Postal Code: B-6000\nShip Country: Belgium\nCustomer Details:\nCustomer ID: SUPRD\nCustomer Name: Supr\u00eames d\u00e9lices\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-03-06\nShipped Date: 2018-03-18\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Sir Rodney's Scones\nQuantity: 36\nUnit Price: 10.0\nTotal: 360.0\n--------------------------------------------------------------------------------------------------\nProduct: Schoggi Schokolade\nQuantity: 25\nUnit Price: 43.9\nTotal: 1097.5\n--------------------------------------------------------------------------------------------------\nProduct: P\u00e2t\u00e9 chinois\nQuantity: 25\nUnit Price: 24.0\nTotal: 600.0\n--------------------------------------------------------------------------------------------------\nProduct: Escargots de Bourgogne\nQuantity: 30\nUnit Price: 13.25\nTotal: 397.5\nTotal Price:\nTotal Price: 2455.0\n, start_index=0, end_index=1161, token_count=273, level=0)",
+        "file_name": "order_10930.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10930"
+    },
+    {
+        "id": "company_doc_30_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10822\nShipping Details:\nShip Name: Trail-s Head Gourmet Provisioners\nShip Address: 722 DaVinci Blvd.\nShip City: Kirkland\nShip Region: North America\nShip Postal Code: 98034\nShip Country: USA\nCustomer Details:\nCustomer ID: TRAIH\nCustomer Name: Trail's Head Gourmet Provisioners\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-01-08\nShipped Date: 2018-01-16\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 3\nUnit Price: 49.3\nTotal: 147.89999999999998\n--------------------------------------------------------------------------------------------------\nProduct: Outback Lager\nQuantity: 6\nUnit Price: 15.0\nTotal: 90.0\nTotal Price:\nTotal Price: 237.89999999999998\n, start_index=0, end_index=855, token_count=214, level=0)",
+        "file_name": "order_10822.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10822"
+    },
+    {
+        "id": "company_doc_31_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10639\nShipping Details:\nShip Name: Sant\u00e9 Gourmet\nShip Address: Erling Skakkes gate 78\nShip City: Stavern\nShip Region: Scandinavia\nShip Postal Code: 4110\nShip Country: Norway\nCustomer Details:\nCustomer ID: SANTG\nCustomer Name: Sant\u00e9 Gourmet\nEmployee Details:\nEmployee Name: Robert King\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-08-20\nShipped Date: 2017-08-27\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Carnarvon Tigers\nQuantity: 8\nUnit Price: 62.5\nTotal: 500.0\nTotal Price:\nTotal Price: 500.0\n, start_index=0, end_index=629, token_count=167, level=0)",
+        "file_name": "order_10639.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10639"
+    },
+    {
+        "id": "company_doc_32_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10401\nShipping Details:\nShip Name: Rattlesnake Canyon Grocery\nShip Address: 2817 Milton Dr.\nShip City: Albuquerque\nShip Region: North America\nShip Postal Code: 87110\nShip Country: USA\nCustomer Details:\nCustomer ID: RATTC\nCustomer Name: Rattlesnake Canyon Grocery\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-01-01\nShipped Date: 2017-01-10\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Nord-Ost Matjeshering\nQuantity: 18\nUnit Price: 20.7\nTotal: 372.59999999999997\n--------------------------------------------------------------------------------------------------\nProduct: Gnocchi di nonna Alice\nQuantity: 70\nUnit Price: 30.4\nTotal: 2128.0\n--------------------------------------------------------------------------------------------------\nProduct: Louisiana Fiery Hot Pepper Sauce\nQuantity: 20\nUnit Price: 16.8\nTotal: 336.0\n--------------------------------------------------------------------------------------------------\nProduct: Flotemysost\nQuantity: 60\nUnit Price: 17.2\nTotal: 1032.0\nTotal Price:\nTotal Price: 3868.6\n, start_index=0, end_index=1195, token_count=276, level=0)",
+        "file_name": "order_10401.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10401"
+    },
+    {
+        "id": "company_doc_33_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10988\nShipping Details:\nShip Name: Rattlesnake Canyon Grocery\nShip Address: 2817 Milton Dr.\nShip City: Albuquerque\nShip Region: North America\nShip Postal Code: 87110\nShip Country: USA\nCustomer Details:\nCustomer ID: RATTC\nCustomer Name: Rattlesnake Canyon Grocery\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2018-03-31\nShipped Date: 2018-04-10\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Uncle Bob's Organic Dried Pears\nQuantity: 60\nUnit Price: 30.0\nTotal: 1800.0\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 40\nUnit Price: 49.3\nTotal: 1972.0\nTotal Price:\nTotal Price: 3772.0\n, start_index=0, end_index=839, token_count=206, level=0)",
+        "file_name": "order_10988.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10988"
+    },
+    {
+        "id": "company_doc_34_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10704\nShipping Details:\nShip Name: Queen Cozinha\nShip Address: Alameda dos Can\u00e0rios, 891\nShip City: Sao Paulo\nShip Region: South America\nShip Postal Code: 05487-020\nShip Country: Brazil\nCustomer Details:\nCustomer ID: QUEEN\nCustomer Name: Queen Cozinha\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-10-14\nShipped Date: 2017-11-07\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chef Anton's Cajun Seasoning\nQuantity: 6\nUnit Price: 22.0\nTotal: 132.0\n--------------------------------------------------------------------------------------------------\nProduct: Guaran\u00e1 Fant\u00e1stica\nQuantity: 35\nUnit Price: 4.5\nTotal: 157.5\n--------------------------------------------------------------------------------------------------\nProduct: Chocolade\nQuantity: 24\nUnit Price: 12.75\nTotal: 306.0\nTotal Price:\nTotal Price: 595.5\n, start_index=0, end_index=985, token_count=238, level=0)",
+        "file_name": "order_10704.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10704"
+    },
+    {
+        "id": "company_doc_35_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10840\nShipping Details:\nShip Name: LINO-Delicateses\nShip Address: Ave. 5 de Mayo Porlamar\nShip City: I. de Margarita\nShip Region: South America\nShip Postal Code: 4980\nShip Country: Venezuela\nCustomer Details:\nCustomer ID: LINOD\nCustomer Name: LINO-Delicateses\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2018-01-19\nShipped Date: 2018-02-16\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: NuNuCa Nu\u00df-Nougat-Creme\nQuantity: 6\nUnit Price: 14.0\nTotal: 84.0\n--------------------------------------------------------------------------------------------------\nProduct: Chartreuse verte\nQuantity: 10\nUnit Price: 18.0\nTotal: 180.0\nTotal Price:\nTotal Price: 264.0\n, start_index=0, end_index=826, token_count=214, level=0)",
+        "file_name": "order_10840.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10840"
+    },
+    {
+        "id": "company_doc_36_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10478\nShipping Details:\nShip Name: Victuailles en stock\nShip Address: 2, rue du Commerce\nShip City: Lyon\nShip Region: Western Europe\nShip Postal Code: 69004\nShip Country: France\nCustomer Details:\nCustomer ID: VICTE\nCustomer Name: Victuailles en stock\nEmployee Details:\nEmployee Name: Andrew Fuller\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-03-18\nShipped Date: 2017-03-26\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Ikura\nQuantity: 20\nUnit Price: 24.8\nTotal: 496.0\nTotal Price:\nTotal Price: 496.0\n, start_index=0, end_index=632, token_count=167, level=0)",
+        "file_name": "order_10478.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10478"
+    },
+    {
+        "id": "company_doc_37_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10560\nShipping Details:\nShip Name: Frankenversand\nShip Address: Berliner Platz 43\nShip City: M\u00fcnchen\nShip Region: Western Europe\nShip Postal Code: 80805\nShip Country: Germany\nCustomer Details:\nCustomer ID: FRANK\nCustomer Name: Frankenversand\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-06-06\nShipped Date: 2017-06-09\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Nord-Ost Matjeshering\nQuantity: 20\nUnit Price: 25.89\nTotal: 517.8\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 15\nUnit Price: 49.3\nTotal: 739.5\nTotal Price:\nTotal Price: 1257.3\n, start_index=0, end_index=806, token_count=202, level=0)",
+        "file_name": "order_10560.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10560"
+    },
+    {
+        "id": "company_doc_38_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10688\nShipping Details:\nShip Name: Vaffeljernet\nShip Address: Smagsloget 45\nShip City: \u00c5rhus\nShip Region: Northern Europe\nShip Postal Code: 8200\nShip Country: Denmark\nCustomer Details:\nCustomer ID: VAFFE\nCustomer Name: Vaffeljernet\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-10-01\nShipped Date: 2017-10-07\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Ikura\nQuantity: 18\nUnit Price: 31.0\nTotal: 558.0\n--------------------------------------------------------------------------------------------------\nProduct: R\u00f6ssle Sauerkraut\nQuantity: 60\nUnit Price: 45.6\nTotal: 2736.0\n--------------------------------------------------------------------------------------------------\nProduct: Sasquatch Ale\nQuantity: 14\nUnit Price: 14.0\nTotal: 196.0\nTotal Price:\nTotal Price: 3490.0\n, start_index=0, end_index=950, token_count=234, level=0)",
+        "file_name": "order_10688.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10688"
+    },
+    {
+        "id": "company_doc_39_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10879\nShipping Details:\nShip Name: Wilman Kala\nShip Address: Keskuskatu 45\nShip City: Helsinki\nShip Region: Scandinavia\nShip Postal Code: 21240\nShip Country: Finland\nCustomer Details:\nCustomer ID: WILMK\nCustomer Name: Wilman Kala\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2018-02-10\nShipped Date: 2018-02-12\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Boston Crab Meat\nQuantity: 12\nUnit Price: 18.4\nTotal: 220.79999999999998\n--------------------------------------------------------------------------------------------------\nProduct: Louisiana Fiery Hot Pepper Sauce\nQuantity: 10\nUnit Price: 21.05\nTotal: 210.5\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 10\nUnit Price: 18.0\nTotal: 180.0\nTotal Price:\nTotal Price: 611.3\n, start_index=0, end_index=986, token_count=230, level=0)",
+        "file_name": "order_10879.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10879"
+    },
+    {
+        "id": "company_doc_40_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10505\nShipping Details:\nShip Name: M\u00e8re Paillarde\nShip Address: 43 rue St. Laurent\nShip City: Montr\u00e9al\nShip Region: North America\nShip Postal Code: H1J 1C3\nShip Country: Canada\nCustomer Details:\nCustomer ID: MEREP\nCustomer Name: M\u00e8re Paillarde\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-04-14\nShipped Date: 2017-04-21\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Tarte au sucre\nQuantity: 3\nUnit Price: 49.3\nTotal: 147.89999999999998\nTotal Price:\nTotal Price: 147.89999999999998\n, start_index=0, end_index=661, token_count=182, level=0)",
+        "file_name": "order_10505.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10505"
+    },
+    {
+        "id": "company_doc_41_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10382\nShipping Details:\nShip Name: Ernst Handel\nShip Address: Kirchgasse 6\nShip City: Graz\nShip Region: Western Europe\nShip Postal Code: 8010\nShip Country: Austria\nCustomer Details:\nCustomer ID: ERNSH\nCustomer Name: Ernst Handel\nEmployee Details:\nEmployee Name: Margaret Peacock\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2016-12-13\nShipped Date: 2016-12-16\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Chef Anton's Gumbo Mix\nQuantity: 32\nUnit Price: 17.0\nTotal: 544.0\n--------------------------------------------------------------------------------------------------\nProduct: Carnarvon Tigers\nQuantity: 9\nUnit Price: 50.0\nTotal: 450.0\n--------------------------------------------------------------------------------------------------\nProduct: Th\u00fcringer Rostbratwurst\nQuantity: 14\nUnit Price: 99.0\nTotal: 1386.0\n--------------------------------------------------------------------------------------------------\nProduct: Geitost\nQuantity: 60\nUnit Price: 2.0\nTotal: 120.0\n--------------------------------------------------------------------------------------------------\nProduct: Longlife Tofu\nQuantity: 50\nUnit Price: 8.0\nTotal: 400.0\nTotal Price:\nTotal Price: 2900.0\n, start_index=0, end_index=1294, token_count=288, level=0)",
+        "file_name": "order_10382.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10382"
+    },
+    {
+        "id": "company_doc_42_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10350\nShipping Details:\nShip Name: La maison d-Asie\nShip Address: 1 rue Alsace-Lorraine\nShip City: Toulouse\nShip Region: Western Europe\nShip Postal Code: 31000\nShip Country: France\nCustomer Details:\nCustomer ID: LAMAI\nCustomer Name: La maison d'Asie\nEmployee Details:\nEmployee Name: Michael Suyama\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2016-11-11\nShipped Date: 2016-12-03\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Valkoinen suklaa\nQuantity: 15\nUnit Price: 13.0\nTotal: 195.0\n--------------------------------------------------------------------------------------------------\nProduct: Gudbrandsdalsost\nQuantity: 18\nUnit Price: 28.8\nTotal: 518.4\nTotal Price:\nTotal Price: 713.4\n, start_index=0, end_index=809, token_count=216, level=0)",
+        "file_name": "order_10350.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10350"
+    },
+    {
+        "id": "company_doc_43_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10765\nShipping Details:\nShip Name: QUICK-Stop\nShip Address: Taucherstra\u00dfe 10\nShip City: Cunewalde\nShip Region: Western Europe\nShip Postal Code: 1307\nShip Country: Germany\nCustomer Details:\nCustomer ID: QUICK\nCustomer Name: QUICK-Stop\nEmployee Details:\nEmployee Name: Janet Leverling\nShipper Details:\nShipper ID: 3\nShipper Name: Federal Shipping\nOrder Details:\nOrder Date: 2017-12-04\nShipped Date: 2017-12-09\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Louisiana Fiery Hot Pepper Sauce\nQuantity: 80\nUnit Price: 21.05\nTotal: 1684.0\nTotal Price:\nTotal Price: 1684.0\n, start_index=0, end_index=647, token_count=172, level=0)",
+        "file_name": "order_10765.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10765"
+    },
+    {
+        "id": "company_doc_44_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10668\nShipping Details:\nShip Name: Die Wandernde Kuh\nShip Address: Adenauerallee 900\nShip City: Stuttgart\nShip Region: Western Europe\nShip Postal Code: 70563\nShip Country: Germany\nCustomer Details:\nCustomer ID: WANDK\nCustomer Name: Die Wandernde Kuh\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-09-15\nShipped Date: 2017-09-23\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Gorgonzola Telino\nQuantity: 8\nUnit Price: 12.5\nTotal: 100.0\n--------------------------------------------------------------------------------------------------\nProduct: P\u00e2t\u00e9 chinois\nQuantity: 4\nUnit Price: 24.0\nTotal: 96.0\n--------------------------------------------------------------------------------------------------\nProduct: Wimmers gute Semmelkn\u00f6del\nQuantity: 15\nUnit Price: 33.25\nTotal: 498.75\nTotal Price:\nTotal Price: 694.75\n, start_index=0, end_index=982, token_count=238, level=0)",
+        "file_name": "order_10668.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10668"
+    },
+    {
+        "id": "company_doc_45_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10711\nShipping Details:\nShip Name: Save-a-lot Markets\nShip Address: 187 Suffolk Ln.\nShip City: Boise\nShip Region: North America\nShip Postal Code: 83720\nShip Country: USA\nCustomer Details:\nCustomer ID: SAVEA\nCustomer Name: Save-a-lot Markets\nEmployee Details:\nEmployee Name: Steven Buchanan\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-10-21\nShipped Date: 2017-10-29\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Teatime Chocolate Biscuits\nQuantity: 12\nUnit Price: 9.2\nTotal: 110.39999999999999\n--------------------------------------------------------------------------------------------------\nProduct: Jack's New England Clam Chowder\nQuantity: 42\nUnit Price: 9.65\nTotal: 405.3\n--------------------------------------------------------------------------------------------------\nProduct: Perth Pasties\nQuantity: 120\nUnit Price: 32.8\nTotal: 3935.9999999999995\nTotal Price:\nTotal Price: 4451.7\n, start_index=0, end_index=1018, token_count=240, level=0)",
+        "file_name": "order_10711.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10711"
+    },
+    {
+        "id": "company_doc_46_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10421\nShipping Details:\nShip Name: Que Del\u00edcia\nShip Address: Rua da Panificadora, 12\nShip City: Rio de Janeiro\nShip Region: South America\nShip Postal Code: 02389-673\nShip Country: Brazil\nCustomer Details:\nCustomer ID: QUEDE\nCustomer Name: Que Del\u00edcia\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 1\nShipper Name: Speedy Express\nOrder Details:\nOrder Date: 2017-01-21\nShipped Date: 2017-01-27\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Teatime Chocolate Biscuits\nQuantity: 4\nUnit Price: 7.3\nTotal: 29.2\n--------------------------------------------------------------------------------------------------\nProduct: Gumb\u00e4r Gummib\u00e4rchen\nQuantity: 30\nUnit Price: 24.9\nTotal: 747.0\n--------------------------------------------------------------------------------------------------\nProduct: Perth Pasties\nQuantity: 15\nUnit Price: 26.2\nTotal: 393.0\n--------------------------------------------------------------------------------------------------\nProduct: Original Frankfurter gr\u00fcne So\u00dfe\nQuantity: 10\nUnit Price: 10.4\nTotal: 104.0\nTotal Price:\nTotal Price: 1273.2\n, start_index=0, end_index=1169, token_count=275, level=0)",
+        "file_name": "order_10421.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10421"
+    },
+    {
+        "id": "company_doc_47_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10962\nShipping Details:\nShip Name: QUICK-Stop\nShip Address: Taucherstra\u00dfe 10\nShip City: Cunewalde\nShip Region: Western Europe\nShip Postal Code: 1307\nShip Country: Germany\nCustomer Details:\nCustomer ID: QUICK\nCustomer Name: QUICK-Stop\nEmployee Details:\nEmployee Name: Laura Callahan\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2018-03-19\nShipped Date: 2018-03-23\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Uncle Bob's Organic Dried Pears\nQuantity: 45\nUnit Price: 30.0\nTotal: 1350.0\n--------------------------------------------------------------------------------------------------\nProduct: Konbu\nQuantity: 77\nUnit Price: 6.0\nTotal: 462.0\n--------------------------------------------------------------------------------------------------\nProduct: Perth Pasties\nQuantity: 20\nUnit Price: 32.8\nTotal: 656.0\n--------------------------------------------------------------------------------------------------\nProduct: Gudbrandsdalsost\nQuantity: 9\nUnit Price: 36.0\nTotal: 324.0\n--------------------------------------------------------------------------------------------------\nProduct: Lakkalik\u00f6\u00f6ri\nQuantity: 44\nUnit Price: 18.0\nTotal: 792.0\nTotal Price:\nTotal Price: 3584.0\n, start_index=0, end_index=1294, token_count=293, level=0)",
+        "file_name": "order_10962.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10962"
+    },
+    {
+        "id": "company_doc_48_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10771\nShipping Details:\nShip Name: Ernst Handel\nShip Address: Kirchgasse 6\nShip City: Graz\nShip Region: Western Europe\nShip Postal Code: 8010\nShip Country: Austria\nCustomer Details:\nCustomer ID: ERNSH\nCustomer Name: Ernst Handel\nEmployee Details:\nEmployee Name: Anne Dodsworth\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-12-10\nShipped Date: 2018-01-02\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Flotemysost\nQuantity: 16\nUnit Price: 21.5\nTotal: 344.0\nTotal Price:\nTotal Price: 344.0\n, start_index=0, end_index=615, token_count=165, level=0)",
+        "file_name": "order_10771.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10771"
+    },
+    {
+        "id": "company_doc_49_chunk0",
+        "chunk_text": "RecursiveChunk(text=Order ID: 10579\nShipping Details:\nShip Name: Let-s Stop N Shop\nShip Address: 87 Polk St. Suite 5\nShip City: San Francisco\nShip Region: North America\nShip Postal Code: 94117\nShip Country: USA\nCustomer Details:\nCustomer ID: LETSS\nCustomer Name: Let's Stop N Shop\nEmployee Details:\nEmployee Name: Nancy Davolio\nShipper Details:\nShipper ID: 2\nShipper Name: United Package\nOrder Details:\nOrder Date: 2017-06-25\nShipped Date: 2017-07-04\nProducts:\n--------------------------------------------------------------------------------------------------\nProduct: Genen Shouyu\nQuantity: 10\nUnit Price: 15.5\nTotal: 155.0\n--------------------------------------------------------------------------------------------------\nProduct: Rh\u00f6nbr\u00e4u Klosterbier\nQuantity: 21\nUnit Price: 7.75\nTotal: 162.75\nTotal Price:\nTotal Price: 317.75\n, start_index=0, end_index=811, token_count=204, level=0)",
+        "file_name": "order_10579.pdf",
+        "document_type": "Shipping Orders",
+        "order_id": "10579"
+    }
+]
